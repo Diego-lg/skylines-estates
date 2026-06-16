@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npx --no-install tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 4173",
     "start": "vite --host 0.0.0.0"
   },
